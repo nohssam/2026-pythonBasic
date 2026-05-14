@@ -56,4 +56,14 @@ print("-"*50)
 # 해당 key가 dict 안에 있는지 검사 : in
 print('name' in dic)  # dic안에 name 키가 있으면 True, 없으면 False
 print('hobby' in dic) # dic안에 hobby 키가 있으면 True, 없으면 False
+print("-"*50)
 
+# 데이터 수정
+dic = {'name':'kang', 'age':10, 'gender': True}
+dic["name"] = "Kim"
+print(dic)
+print("-"*50)
+
+# key는 중복 안됨
+dic = {'name':'kang', 'name':'Park',  'age':10, 'gender': True}
+print(dic)
